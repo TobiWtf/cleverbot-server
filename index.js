@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const express = require("express");
 let args = process.argv.slice(2);
 let port = Number(args[0]);
